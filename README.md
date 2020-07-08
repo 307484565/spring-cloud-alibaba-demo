@@ -29,10 +29,6 @@ Spring Cloud Alibaba 致力于提供微服务开发的一站式解决方案。�
 
 下载地址 ： https://github.com/alibaba/nacos/releases
 
-## 3、启动
-
-![nacos1](doc/image/nacos1.png)
-
 详细文档 ： https://nacos.io/zh-cn/docs/quick-start.html
 
 ## 4、增加配置信息
@@ -45,9 +41,6 @@ https://nacos.io/zh-cn/docs/quick-start-spring-cloud.html
 
 帐号/密码 ： nacos/nacos
 
-## 6、官方文档
-
-https://nacos.io/zh-cn/docs/what-is-nacos.html
 
 # 四、Spring Cloud Alibaba Dubbo
 
@@ -69,15 +62,15 @@ https://nacos.io/zh-cn/docs/what-is-nacos.html
         <artifactId>spring-boot-actuator</artifactId>
     </dependency>
     <dependency>
-        <groupId>org.springframework.cloud</groupId>
+        <groupId>com.alibaba.cloud</groupId>
         <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
     </dependency>
     <dependency>
-        <groupId>org.springframework.cloud</groupId>
+        <groupId>com.alibaba.cloud</groupId>
         <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
     </dependency>
     <dependency>
-        <groupId>org.springframework.cloud</groupId>
+        <groupId>com.alibaba.cloud</groupId>
         <artifactId>spring-cloud-starter-dubbo</artifactId>
     </dependency>
     <dependency>
@@ -97,21 +90,15 @@ https://nacos.io/zh-cn/docs/what-is-nacos.html
             <scope>import</scope>
         </dependency>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
+            <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-            <version>0.9.0.RELEASE</version>
+            <version>2.1.0.RELEASE</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
     </dependencies>
 </dependencyManagement>
 ```
-
-## 2、效果图
-
-![nacos2](doc/image/nacos2.png)
-
-![nacos2](doc/image/nacos2.png)
 
 ## 3、官方文档
 
@@ -141,7 +128,7 @@ https://github.com/apache/incubator-dubbo-admin
 
 https://github.com/alibaba/Sentinel/releases
 
-## 2、启动
+## 2、启动 Dashboard 
 
 ```
 java -jar "D:/Program Files/sentinel-dashboard-1.6.0.jar" --server.port=9999
@@ -200,12 +187,6 @@ management:
       exposure:
         include: '*'
 ```
-
-## 5、效果图
-
-![sentinel2](doc/image/sentinel2.png)
-
-![sentinel3](doc/image/sentinel3.png)
 
 ## 6、官方文档
 
@@ -288,15 +269,6 @@ windows下启动提示“输入行太长”，可修改seata-server.bat文件内
 
 https://github.com/spring-cloud-incubator/spring-cloud-alibaba/blob/master/spring-cloud-alibaba-examples/seata-example/readme-zh.md
 
-# 七、演示源码
-
-## 1、Github
-
-https://github.com/shuzheng/spring-cloud-alibaba
-
-## 2、Gitee
-
-https://gitee.com/shuzheng/spring-cloud-alibaba
 
 
 

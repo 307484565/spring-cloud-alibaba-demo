@@ -1,6 +1,7 @@
 package cn.zhangshuzheng.spring.cloud.alibaba.dubbo.provider.dubbo;
 
 import cn.zhangshuzheng.spring.cloud.alibaba.dubbo.api.DubboApi;
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Value;
 
